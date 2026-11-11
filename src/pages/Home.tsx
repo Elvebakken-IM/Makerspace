@@ -1,6 +1,10 @@
+import Status from '../components/Status.tsx'
+
 function Home() {
   return (
-    <h1>Home</h1>
+    <header>
+      <Status />
+    </header>
   )
 }
 
